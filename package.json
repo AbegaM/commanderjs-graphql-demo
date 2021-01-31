@@ -1,0 +1,25 @@
+{
+  "name": "Client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "apollo-boost": "^0.4.9",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.21.1",
+    "commander": "^7.0.0",
+    "graphql": "^15.4.0",
+    "graphql-request": "^3.4.0",
+    "inquirer": "^7.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.1",
+    "node-persist": "^3.1.0"
+  }
+}
