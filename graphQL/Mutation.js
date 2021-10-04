@@ -16,4 +16,15 @@ mutation signIn($userName: String!, $password: String!){
    }
 }
 `
-module.exports = { CREATE_USER, LOG_IN };
+const CREATE_TODO = gql `
+mutation createTodo($name: String!, $startDate: String!, $endDate: String!){
+   createTodo(input: {name: $name, startDate: $startDate, endDate: $endDate}){
+      name
+      startDate
+      endDate
+   }
+}
+`
+
+
+module.exports = { CREATE_USER, LOG_IN, CREATE_TODO };
